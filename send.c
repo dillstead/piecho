@@ -94,7 +94,7 @@ int main(int argc, char **argv)
     
     if (argc != 2)
     {
-        fprintf(stderr, "Usage: echo <dev>\n");
+        fprintf(stderr, "Usage: send <dev>\n");
         goto cleanup;
     }
 
